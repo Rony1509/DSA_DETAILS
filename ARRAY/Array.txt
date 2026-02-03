@@ -1,0 +1,9 @@
+Array is fixed sized
+Array Operation:
+Accsesing:-O(1)
+Insert:o(1) / o(n)
+Delet: o(n) / o(1)
+Traverse: o(n)
+Search:1.Unsorted:Linear Search o(n)
+       2.Sorted: Binary Search o(logn)
+       
