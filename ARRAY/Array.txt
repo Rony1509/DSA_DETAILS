@@ -6,4 +6,21 @@ Delet: o(n) / o(1)
 Traverse: o(n)
 Search:1.Unsorted:Linear Search o(n)
        2.Sorted: Binary Search o(logn)
-       
+Update:o(1)   
+Benefit:
+Random Access:o(1)
+Cache Friendly  -using easily in Graph,tree etc 
+easily sorting
+implement other Data structure
+Limitaion:
+fixed sized
+
+Use:
+1.Implenting Other Data structure
+2.Caching,memozition,tabulaton can be solve
+3.Dealing with graph or Tree problem to keep visited node
+4.coding pattern-2 pointers,sliding window
+
+LeetCode:
+1.Two Sum Problem-unordered_map
+2.Contains Duplicate-Unordered_set(leetcode-217)
