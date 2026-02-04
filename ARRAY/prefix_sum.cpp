@@ -5,6 +5,7 @@ int main(){
     vector<int> prefix_sum(arr.size());
     prefix_sum[0] = arr[0];
     for(int i = 1; i < arr.size(); i++){
+        if(arr.size()==0) return 0;
         prefix_sum[i] = prefix_sum[i-1] + arr[i];
     }
     cout << "Prefix Sum Array: ";
