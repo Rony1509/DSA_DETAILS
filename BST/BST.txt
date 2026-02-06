@@ -1,0 +1,4 @@
+BST=Binary Search + Binary Tree
+Binary Search:
+1.All values of left sub_tree < node(val)
+2.All values of right sub_tree > node(val)
